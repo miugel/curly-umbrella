@@ -1,12 +1,16 @@
-import React from 'react'
-import { ChakraProvider, theme } from '@chakra-ui/react'
-import { ColorModeSwitcher } from './ColorModeSwitcher'
+import React, { Fragment } from 'react'
+import { Routes, Route } from 'react-router-dom'
+import { Header } from './components'
 
 export const App = () => {
   return (
-    <ChakraProvider theme={theme}>
-      <ColorModeSwitcher justifySelf='flex-end' />
-      <h1>Hello world</h1>
-    </ChakraProvider>
+    <Fragment>
+      <Header />
+      <Routes>
+        <Route path='/' element={<HomePage />} />
+      </Routes>
+    </Fragment>
   )
 }
+
+const HomePage = () => <Fragment></Fragment>
