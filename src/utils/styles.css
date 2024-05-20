@@ -1,0 +1,10 @@
+.chunkButton {
+  background-color: #fd5c63;
+  border-radius: 8px;
+  color: white;
+  font-weight: 500;
+  margin-bottom: 32px;
+  margin-right: 16px;
+  margin-top: 32px;
+  padding: 4px 16px;
+}

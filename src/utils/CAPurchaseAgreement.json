@@ -1,0 +1,70 @@
+{
+  "chunks": [
+    [
+      {
+        "field": "buyer",
+        "name": "Buyer",
+        "description": "The name of the buyer (you) making the offer.",
+        "type": "text"
+      },
+      {
+        "field": "listingAgent",
+        "name": "Listing Agent",
+        "description": "The name of the seller's agent.",
+        "type": "text"
+      }
+    ],
+    [
+      {
+        "field": "streetAddress",
+        "name": "Property Street Address",
+        "description": "The street address of the property being acquired.",
+        "type": "text"
+      },
+      {
+        "field": "city",
+        "name": "City",
+        "description": "The city of the property being acquired.",
+        "type": "text"
+      },
+      {
+        "field": "county",
+        "name": "County",
+        "description": "The county of the property being acquired.",
+        "type": "text"
+      },
+      {
+        "field": "zipCode",
+        "name": "Zip Code",
+        "description": "The zip code of the property being acquired.",
+        "type": "text"
+      },
+      {
+        "field": "parcelNumber",
+        "name": "Assessor's Parcel Number",
+        "description": "The parcel number of the property being acquired. This can be found on the county website.",
+        "type": "text"
+      }
+    ],
+    [
+      {
+        "field": "purchasePrice",
+        "name": "Purchase Price",
+        "description": "The amount of money offered for the property.",
+        "type": "number"
+      },
+      {
+        "field": "escrowClose",
+        "name": "Close of Escrow",
+        "description": "The date or number of days after acceptance when the escrow will close.",
+        "type": "date"
+      },
+      {
+        "field": "downPayment",
+        "name": "Balance of Down Payment",
+        "description": "The amount to be deposited into an escrow account.",
+        "type": "number"
+      }
+    ]
+  ]
+}

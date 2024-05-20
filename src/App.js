@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react'
 import { Routes, Route } from 'react-router-dom'
-import { Header } from './components'
+import { Header, WriteOffer } from './components'
 
 export const App = () => {
   return (
@@ -13,4 +13,8 @@ export const App = () => {
   )
 }
 
-const HomePage = () => <Fragment></Fragment>
+const HomePage = () => (
+  <Fragment>
+    <WriteOffer />
+  </Fragment>
+)
