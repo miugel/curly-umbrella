@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
 import TypeForm from 'react-typeform'
 import { Center, Box, Heading, FormControl } from '@chakra-ui/react'
-import CAPurchaseAgreement from '../utils/CAPurchaseAgreement.json'
+import CAPurchaseAgreement from '../assets/CAPurchaseAgreement.json'
 import { FormChunk } from './FormChunk'
-import '../utils/styles.css'
+import '../styles.css'
 
 export const WriteOffer = () => {
   const [inputs, setInputs] = useState({
