@@ -10,9 +10,12 @@ export const compileOffer = async (inputs) => {
   const pages = pdfDoc.getPages()
   const firstPage = pages[0]
 
+  // Temporary fallback
+  const buyerName = inputs.buyer || 'Modern Realtor'
+
   // TODO: Map over fields and map to 'inputs' and draw them on PDF
   // Just doing name for now as to show functionality and for times' sake
-  firstPage.drawText(inputs.buyer || 'Modern Realtor', {
+  firstPage.drawText(buyerName, {
     x: 175,
     y: 674,
     size: 8,
@@ -25,7 +28,7 @@ export const compileOffer = async (inputs) => {
   const urlBlob = URL.createObjectURL(blob)
   const a = document.createElement('a')
   a.href = urlBlob
-  a.download = `PurchaseAgreement.pdf`
+  a.download = `${buyerName}_PurchaseAgreement.pdf`
   document.body.appendChild(a)
   a.click()
   document.body.removeChild(a)

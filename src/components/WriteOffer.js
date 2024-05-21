@@ -6,19 +6,21 @@ import { FormChunk } from './FormChunk'
 import '../styles.css'
 import { compileOffer } from '../utils/compileOffer'
 
+const emptyOffer = {
+  buyer: '',
+  listingAgent: '',
+  streetAddress: '',
+  city: '',
+  county: '',
+  zipCode: '',
+  parcelNumber: '',
+  purchasePrice: '',
+  escrowClose: '',
+  downPayment: ''
+}
+
 export const WriteOffer = () => {
-  const [inputs, setInputs] = useState({
-    buyer: '',
-    listingAgent: '',
-    streetAddress: '',
-    city: '',
-    county: '',
-    zipCode: '',
-    parcelNumber: '',
-    purchasePrice: '',
-    escrowClose: '',
-    downPayment: ''
-  })
+  const [inputs, setInputs] = useState(emptyOffer)
 
   const reviewOffer = async () => {
     await compileOffer()
