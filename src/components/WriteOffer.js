@@ -4,6 +4,7 @@ import { Center, Box, Heading, FormControl } from '@chakra-ui/react'
 import CAPurchaseAgreement from '../assets/CAPurchaseAgreement.json'
 import { FormChunk } from './FormChunk'
 import '../styles.css'
+import { compileOffer } from '../utils/compileOffer'
 
 export const WriteOffer = () => {
   const [inputs, setInputs] = useState({
@@ -19,7 +20,9 @@ export const WriteOffer = () => {
     downPayment: ''
   })
 
-  const reviewOffer = () => console.log(inputs)
+  const reviewOffer = async () => {
+    await compileOffer()
+  }
 
   return (
     <Center>

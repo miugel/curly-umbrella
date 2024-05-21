@@ -5,7 +5,9 @@
         "field": "buyer",
         "name": "Buyer",
         "description": "The name of the buyer (you) making the offer.",
-        "type": "text"
+        "type": "text",
+        "x": 175,
+        "y": 674
       },
       {
         "field": "listingAgent",
