@@ -1,0 +1,82 @@
+[
+  {
+    "propertyId": 1,
+    "address": "123 Main St, Anytown, USA",
+    "price": 250000,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "squareFeet": 1500,
+    "propertyType": "Single Family",
+    "imageURL": "http://ap.rdcpix.com/f1be8652b2a3e129f087f8a76bfad6b9l-m2494324959od-w480_h360_x2.webp?w=1080&q=75"
+  },
+  {
+    "propertyId": 2,
+    "address": "456 Oak St, Sometown, USA",
+    "price": 350000,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "squareFeet": 2000,
+    "propertyType": "Single Family",
+    "imageURL": "http://ap.rdcpix.com/f1be8652b2a3e129f087f8a76bfad6b9l-m3146936111od-w480_h360_x2.webp?w=1080&q=75"
+  },
+  {
+    "propertyId": 3,
+    "address": "789 Pine St, Yourtown, USA",
+    "price": 450000,
+    "bedrooms": 5,
+    "bathrooms": 4,
+    "squareFeet": 2500,
+    "propertyType": "Single Family",
+    "imageURL": "http://ap.rdcpix.com/f1be8652b2a3e129f087f8a76bfad6b9l-m235119725od-w480_h360_x2.webp?w=1080&q=75"
+  },
+  {
+    "propertyId": 4,
+    "address": "101 Maple St, Hisown, USA",
+    "price": 550000,
+    "bedrooms": 6,
+    "bathrooms": 5,
+    "squareFeet": 3000,
+    "propertyType": "Single Family",
+    "imageURL": "http://ap.rdcpix.com/f1be8652b2a3e129f087f8a76bfad6b9l-m301439459od-w480_h360_x2.webp?w=1080&q=75"
+  },
+  {
+    "propertyId": 5,
+    "address": "202 Birch St, Herown, USA",
+    "price": 150000,
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "squareFeet": 1000,
+    "propertyType": "Single Family",
+    "imageURL": "http://ap.rdcpix.com/f1be8652b2a3e129f087f8a76bfad6b9l-m3543071569od-w480_h360_x2.webp?w=1080&q=75"
+  },
+  {
+    "propertyId": 6,
+    "address": "303 Cedar St, Theirtown, USA",
+    "price": 650000,
+    "bedrooms": 7,
+    "bathrooms": 6,
+    "squareFeet": 3500,
+    "propertyType": "Single Family",
+    "imageURL": "http://ap.rdcpix.com/f1be8652b2a3e129f087f8a76bfad6b9l-m695298392od-w480_h360_x2.webp?w=1080&q=75"
+  },
+  {
+    "propertyId": 7,
+    "address": "404 Elm St, Anothertown, USA",
+    "price": 750000,
+    "bedrooms": 8,
+    "bathrooms": 7,
+    "squareFeet": 4000,
+    "propertyType": "Single Family",
+    "imageURL": "http://ap.rdcpix.com/f1be8652b2a3e129f087f8a76bfad6b9l-m2004274617od-w480_h360_x2.webp?w=1080&q=75"
+  },
+  {
+    "propertyId": 8,
+    "address": "505 Fir St, Anytown, USA",
+    "price": 850000,
+    "bedrooms": 9,
+    "bathrooms": 8,
+    "squareFeet": 4500,
+    "propertyType": "Single Family",
+    "imageURL": "http://ap.rdcpix.com/f1be8652b2a3e129f087f8a76bfad6b9l-m952577614od-w480_h360_x2.webp?w=1080&q=75"
+  }
+]
