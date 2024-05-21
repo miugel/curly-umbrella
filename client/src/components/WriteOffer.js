@@ -23,7 +23,7 @@ export const WriteOffer = () => {
   const [inputs, setInputs] = useState(emptyOffer)
 
   const reviewOffer = async () => {
-    await compileOffer()
+    await compileOffer(inputs)
   }
 
   return (
@@ -41,6 +41,7 @@ export const WriteOffer = () => {
             nextBtnClass='chunkButton'
             backBtnClass='chunkButton'
             submitBtnText='Review Offer'
+            showReviewView={false}
           >
             {CAPurchaseAgreement.chunks.map((chunk, index) => (
               <FormChunk
