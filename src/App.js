@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react'
 import { Routes, Route, useNavigate } from 'react-router-dom'
-import { Header, WriteOffer } from './components'
+import { Header, WriteOffer, MarketAnalysis } from './components'
 import { Box, Button, ButtonGroup, Center, Heading } from '@chakra-ui/react'
 
 export const App = () => {
@@ -10,6 +10,7 @@ export const App = () => {
       <Routes>
         <Route path='/' element={<HomePage />} />
         <Route path='/offer' element={<WriteOffer />} />
+        <Route path='/analysis' element={<MarketAnalysis />} />
       </Routes>
     </Fragment>
   )
@@ -28,7 +29,9 @@ const HomePage = () => {
           <Button colorScheme='pink' onClick={() => navigate('/offer')}>
             Write Offer
           </Button>
-          {/* <Button colorScheme='purple'>CMA</Button> */}
+          <Button colorScheme='purple' onClick={() => navigate('/analysis')}>
+            CMA
+          </Button>
           {/* <Button colorScheme='teal'>Price Visualizer</Button> */}
         </ButtonGroup>
       </Box>
