@@ -21,7 +21,6 @@ import {
 } from '@chakra-ui/react'
 import { fetchProperties } from '../utils/fetchProperties'
 import '../styles.css'
-import { square } from 'pdf-lib'
 
 export const MarketAnalysis = () => {
   const [address, setAddress] = useState('')
@@ -33,8 +32,8 @@ export const MarketAnalysis = () => {
   }
 
   return (
-    <Center>
-      <Box w='90%' maxW='1024px'>
+    <Center display='flex' flexDirection='column'>
+      <Box w='90%' maxW='768px'>
         <Heading mt='32px' mb='8px'>
           Create a CMA (competitive market analysis)
         </Heading>
@@ -57,7 +56,8 @@ export const MarketAnalysis = () => {
             </Button>
           </Flex>
         </FormControl>
-
+      </Box>
+      <Box w='90%' maxW='1024px'>
         {properties.length > 0 && (
           <Fragment>
             <TableContainer>
